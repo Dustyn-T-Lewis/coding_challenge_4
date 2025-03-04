@@ -68,6 +68,9 @@ Seedmass <- ggplot(data, aes(x = Treatment, y = MassperSeed_mg, fill = Cultivar)
   theme_classic() 
 Seedmass
 ```
+
+
+
 ```{r file_tree, include=TRUE,echo=TRUE,warning=FALSE}
 fs::dir_tree()
 
